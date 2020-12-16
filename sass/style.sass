@@ -196,3 +196,93 @@ body
     margin-right: 8px
     &:last-child
       margin-right: 0
+.post
+  background: #FFFFFF
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15)
+  border-radius: 4px
+  margin: 16px 0
+  padding: 16px
+  &-footer
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    &::before
+      content: ''
+      width: 100%
+      height: 1px
+      background: #E8E8E8
+      margin-bottom: 16px
+  &-button 
+    background-color: #fff
+    border: none
+    display: flex
+    align-items: center
+    &-text 
+      color: #595959
+      font-size: 14px
+      font-weight: 600
+      line-height: 22px
+      margin-left: 8px
+  &-header
+    display: flex
+    justify-content: space-between
+    margin-bottom: 16px
+    &-button 
+      background-color: #fff
+      border: none
+      cursor: pointer
+  &-author
+    color: #0050B3
+    font-size: 14px
+    font-weight: 600
+    line-height: 22px
+    text-decoration: none
+    width: 100%
+.post
+  &-header .user-avatar
+    width: 48px
+    height: 48px
+    margin-right: 12px
+.post
+  &-info
+    display: flex
+    flex-wrap: wrap
+    &-time
+      display: flex
+      align-items: center
+  &-time
+    font-size: 14px
+    line-height: 22px
+    color: #8C8C8C
+    &::after
+      display: inline-block
+      content: ''
+      width: 4px
+      height: 4px
+      background-color: #BFBFBF
+      border-radius: 50%
+      margin-right: 6px
+      margin-left: 6px
+      vertical-align: middle
+  &-text 
+    font-size: 14px
+    line-height: 22px
+    color: #595959
+    margin-bottom: 16px
+    a 
+      color: #096dd9
+      text-decoration: none
+  &-image
+    border: 1px solid #bfbfbf
+    border-radius: 4px
+    max-width: 100%
+.likes
+  margin-top: 9px
+  margin-bottom: 9px
+  display: flex
+  align-items: center
+  &-counter
+    color: #595959
+    font-size: 14px
+    line-height: 22px
+    margin-left: 4px
